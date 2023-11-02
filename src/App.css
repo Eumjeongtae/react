@@ -1,7 +1,23 @@
+.banner{
+  font-size: 70px;
+  background-color: orange;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container{
+  width: 500px;
+  margin:  auto;
+  text-align: center;
+}
 .number{
   display: block;
   font-size: 70px;
   padding: 20px;
+}
+.number b{
+  font-size: 40px;
+  font-weight: normal;
 }
 .btn{
   padding: 10px 20px;
