@@ -1,3 +1,47 @@
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productList li{
+  width: 24%;
+  list-style: none;
+}
+.productList li img{
+  border-radius: 0;
+}
+.productList li p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.productList li span{
+  font-size: 16px;
+  display: block;
+}
+.productList li span:last-child{
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
+header{
+  background-color: rgb(240, 227, 116);
+  height: 100px;
+}
+.h_img{
+  width: 200px;
+  height: 50px;
+  object-fit: contain;
+  object-position: 50%;
+  float: left;
+}
+.h_search{
+  width: 300px;
+  padding: 10px;
+  border:  1px solid mediumaquamarine;
+  border-radius: 20px;
+  float: left;
+}
 .banner{
   font-size: 70px;
   background-color: orange;
